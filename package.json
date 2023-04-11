@@ -108,7 +108,7 @@
     "etag": "1.8.1",
     "fanfou-sdk": "4.2.0",
     "git-rev-sync": "3.0.2",
-    "googleapis": "114.0.0",
+    "googleapis": "115.0.0",
     "got": "11.8.6",
     "https-proxy-agent": "5.0.1",
     "iconv-lite": "0.6.3",
@@ -147,7 +147,7 @@
     "tough-cookie": "4.1.2",
     "twitter-api-v2": "1.14.2",
     "winston": "3.8.2",
-    "xml2js": "0.4.23"
+    "xml2js": "0.5.0"
   },
   "jest": {
     "testMatch": [
