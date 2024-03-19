@@ -1239,7 +1239,7 @@
   "/crossbell/notes/source/:source": [
     "DIYgod"
   ],
-  "/cs/:category?": [
+  "/cs/:category{.+}?": [
     "nczitzk"
   ],
   "/cs/video/:category?": [
@@ -2321,7 +2321,10 @@
   "/gov/sichuan/deyang/mztoday/:infoType?": [
     "zytomorrow"
   ],
-  "/gov/stats/*": [],
+  "/gov/stats/*": [
+    "bigfei",
+    "nczitzk"
+  ],
   "/gov/suzhou/doc": [
     "EsuRt"
   ],
@@ -5018,6 +5021,9 @@
   ],
   "/stdaily/digitalpaper": [
     "lyqluis"
+  ],
+  "/steam/search/:params": [
+    "moppman"
   ],
   "/stheadline/std/realtime/:category{.+}?": [],
   "/stockedge/daily-updates/news": [

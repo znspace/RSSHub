@@ -5488,6 +5488,19 @@
       }
     ]
   },
+  "stats.gov.cn": {
+    "_name": "中国人民银行",
+    "www": [
+      {
+        "title": "国家统计局 通用",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/*path"
+        ],
+        "target": "/gov/gov/stats/*path"
+      }
+    ]
+  },
   "suzhou.gov.cn": {
     "_name": "中国人民银行",
     "www": [
@@ -6037,8 +6050,8 @@
     "_name": "HiFeng'Blog",
     ".": [
       {
-        "title": "Unknown",
-        "docs": "https://docs.rsshub.app/routes/other",
+        "title": "最近发表",
+        "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
           "/"
         ],
@@ -12538,6 +12551,20 @@
           "/"
         ],
         "target": "/stbu/xyxw"
+      }
+    ]
+  },
+  "steampowered.com": {
+    "_name": "Steam",
+    "store": [
+      {
+        "title": "Store Search",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/",
+          "/search/:params"
+        ],
+        "target": "/steam/search/:params"
       }
     ]
   },
