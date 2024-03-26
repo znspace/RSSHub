@@ -20953,12 +20953,12 @@
           "repo": "GitHub repo name"
         },
         "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
+          "requireConfig": [
+            {
+              "name": "GITHUB_ACCESS_TOKEN",
+              "description": "GitHub Access Token"
+            }
+          ]
         },
         "radar": [
           {
@@ -20984,12 +20984,13 @@
           "user": "User name"
         },
         "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
+          "requireConfig": [
+            {
+              "name": "GITHUB_ACCESS_TOKEN",
+              "optional": true,
+              "description": "To get more requests"
+            }
+          ]
         },
         "radar": [
           {
@@ -24302,27 +24303,19 @@
   },
   "guokr": {
     "routes": {
-      "/:channel": {
-        "path": "/:channel",
+      "/column/:channel": {
+        "path": "/column/:channel",
         "categories": [
           "new-media"
         ],
-        "example": "/guokr/calendar",
+        "example": "/guokr/column/calendar",
         "parameters": {
           "channel": "专栏类别"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
         },
         "radar": [
           {
             "source": [
-              "guokr.com/"
+              "guokr.com/:channel"
             ]
           }
         ],
@@ -24341,15 +24334,6 @@
           "new-media"
         ],
         "example": "/guokr/scientific",
-        "parameters": {},
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
         "radar": [
           {
             "source": [
